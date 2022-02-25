@@ -351,14 +351,27 @@
 			</div>
 			<div class="contact-in">
 				<h1>Send a Message</h1>
-				<form  action="https://formspree.io/f/myyowrpb" method="POST" enctype="text/plain">
-<!-- 					<input type="text" placeholder="Full Name" id="formname" name="name" class="contact-in-input"> -->
-					<input type="email" placeholder="email" id="formemail" name="email" class="contact-in-input">
-<!-- 					<input type="text" placeholder="Subject" name="subject"  id="formsubject" class="contact-in-input"> -->
-					<textarea placeholder="Message" name="message" id="formmessage" class="contact-in-textarea"></textarea>
-					<input type="submit" value="SUBMIT" class="contact-in-btn" >
+				<!--<form  enctype="text/plain">
+					<input type="text" placeholder="Full Name" id="formname" class="contact-in-input">
+					<input type="text" placeholder="Email" id="formemail" class="contact-in-input">
+					<input type="text" placeholder="Subject"  id="formsubject" class="contact-in-input">
+					<textarea placeholder="Message"  id="formmessage" class="contact-in-textarea"></textarea>
+					<input type="submit" value="SUBMIT" class="contact-in-btn" onclick="newuserdetails()" >
 				</form>
+        <html>-->
+<!-- modify this form HTML and place wherever you want your form -->
+<form action="https://formspree.io/f/myyowrpb" method="POST">
+<input type="email" name="email" placeholder="Email"id="formemail" class="contact-in-input"></label>
+<textarea name="message"  placeholder="Message"  id="formmessage" class="contact-in-textarea"></textarea>
+  
+  <!-- your other form fields go here -->
+  <button type="submit" class="contact-in-btn" >Send</button>
+</form>
+</html>
+
+
 			</div>
+			
 			
 		</div>
 	  
